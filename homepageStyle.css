@@ -47,30 +47,7 @@
   padding: 0;
 }
 
-@media (max-width: 900px) {
-  .nav-links li a {
-    
-    font-size: 0.5em;
-    
-  }
-  
-  .navbar {
-    
-    gap: 1em;
-    
-  }
-  
-  .nav-links {
-   
-    gap: 1.5em; /* разстояние между елементите */
-   
-  }
 
-  
-  .logo img {
-    height: 0.5em; 
-  }
-}
 /* Стил на линковете */
 .nav-links li a {
   color: white;
@@ -86,6 +63,30 @@
 
   .logo img {
     height: 8em; 
+  }
+  
+
+  @media (max-width: 1024px) {
+    .we {
+      padding: 5em; /* Намаляваме padding за лаптопи */
+    }
+  
+    header {
+      margin-top: -6em;
+      margin-left: -6em;
+    }
+  
+    .navbar {
+      gap: 2em; /* Намаляваме разстоянието между елементите */
+    }
+  
+    .nav-links {
+      gap: 2em; /* Намаляваме разстоянието между елементите в менюто */
+    }
+  
+    .logo img {
+      height: 6em; /* Малко по-малка логотип */
+    }
   }
   
 
