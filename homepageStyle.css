@@ -47,6 +47,13 @@
   padding: 0;
 }
 
+@media (max-width: 768px) {
+  .nav-links li a {
+    
+    font-size: 0.9em;
+    
+  }
+}
 /* Стил на линковете */
 .nav-links li a {
   color: white;
