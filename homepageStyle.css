@@ -87,3 +87,28 @@
     letter-spacing: 0.16em;
 
   }
+  .home-about-us-sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -16em;
+    gap: 1em;
+  }
+
+  .home-about-us-h1{
+    font-size: 1.8em;
+    font-weight: 900;
+    letter-spacing: 0.16em;
+  }
+  .home-about-us-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+  .logo2 img {
+    height: 8em; 
+    /* RGB: 105 / 17 / 65 */
+    fill: rgb(105, 17, 65);;
+  
+  }
