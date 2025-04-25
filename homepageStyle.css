@@ -47,11 +47,28 @@
   padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .nav-links li a {
     
-    font-size: 0.9em;
+    font-size: 0.5em;
     
+  }
+  
+  .navbar {
+    
+    gap: 1em;
+    
+  }
+  
+  .nav-links {
+   
+    gap: 1.5em; /* разстояние между елементите */
+   
+  }
+
+  
+  .logo img {
+    height: 0.5em; 
   }
 }
 /* Стил на линковете */
