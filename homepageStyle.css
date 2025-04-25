@@ -108,7 +108,7 @@
     
   }
   
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1800px) {
     .we {
       padding: 5em; /* Намаляваме padding за лаптопи */
     }
@@ -123,12 +123,12 @@
     }
   
     .nav-links {
-      gap: 1em; /* Намаляваме разстоянието между елементите в менюто */
+      gap: 2em; /* Намаляваме разстоянието между елементите в менюто */
     }
 
     .nav-links li a {
      
-      color: red;
+    
       
     }
   
