@@ -1,4 +1,14 @@
+@font-face {
+  font-family: 'Aviano';
+  src: url('/fonts/Aviano-Regular.woff2') format('woff2'),
+       url('/fonts/Aviano-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
+  
     margin: 0; /* Премахваме всякакви външни отстъпи */
     padding: 0; /* Премахваме вътрешните отстъпи */
     height: 100vh; /* Уверяваме се, че body заема цялата височина на екрана */
@@ -6,7 +16,49 @@ body {
     background-size: cover; /* Снимката покрива целия екран */
     background-position: center; /* Центриране на изображението */
     background-repeat: no-repeat; /* Предотвратява повторение на снимката */
+    font-family: 'Aviano', sans-serif;
   }
 
-  
+/* Общ стил на навигацията */
+
+
+.navbar {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 20px 40px;
+  width: 100%; 
+  color: white;
+}
+
+/* Лого */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Навигационен списък */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* разстояние между елементите */
+  margin: 0;
+  padding: 0;
+}
+
+/* Стил на линковете */
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00;
+}
+
+  .logo img {
+    height: 120px; 
+  }
   
