@@ -66,28 +66,7 @@
   }
   
 
-  @media (max-width: 1024px) {
-    .we {
-      padding: 5em; /* Намаляваме padding за лаптопи */
-    }
-  
-    header {
-      margin-top: -6em;
-      margin-left: -6em;
-    }
-  
-    .navbar {
-      gap: 2em; /* Намаляваме разстоянието между елементите */
-    }
-  
-    .nav-links {
-      gap: 2em; /* Намаляваме разстоянието между елементите в менюто */
-    }
-  
-    .logo img {
-      height: 6em; /* Малко по-малка логотип */
-    }
-  }
+ 
   
 
   .home-sign{
@@ -127,4 +106,33 @@
   .logo2 img {
     height: 10em; 
     
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .we {
+      padding: 5em; /* Намаляваме padding за лаптопи */
+    }
+  
+    header {
+      margin-top: -6em;
+      margin-left: -6em;
+    }
+  
+    .navbar {
+      gap: 1em; /* Намаляваме разстоянието между елементите */
+    }
+  
+    .nav-links {
+      gap: 1em; /* Намаляваме разстоянието между елементите в менюто */
+    }
+
+    .nav-links li a {
+     
+      color: red;
+      
+    }
+  
+    .logo img {
+      height: 6em; /* Малко по-малка логотип */
+    }
   }
