@@ -31,17 +31,11 @@ body {
   color: white;
 }
 
-/* Лого */
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-
 /* Навигационен списък */
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px; /* разстояние между елементите */
+  gap: 25px; /* разстояние между елементите */
   margin: 0;
   padding: 0;
 }
@@ -59,6 +53,6 @@ body {
 }
 
   .logo img {
-    height: 120px; 
+    height: 7em; 
   }
   
