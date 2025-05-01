@@ -155,13 +155,12 @@
     .home-about-us-sign{
      
       margin-top: -7em;
-    
+      max-width: 80%;
       
     }
-
-    .home-about-us-text{
-      font-size: 0.7em;
-      
-     background-color: red;
+    .home-about-us-p {
+      margin: 0;
+      padding: 0;
+      line-height: 12; /* по желание, можеш да намалиш още */
     }
   }
