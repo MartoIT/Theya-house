@@ -103,6 +103,7 @@
     font-size: 1.6em;
     font-weight: 900;
     letter-spacing: 0.33em;
+    margin-top: 2em;
   }
 
   .home-about-us-p {
@@ -123,10 +124,63 @@
     
   }
 
+  .WEDDING-INVITATION{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+  }
+
+  .WEDDING-INVITATION-TITLE{
+    font-size: 2.3em;
+    font-weight: 900;
+    
+  }
+  .WEDDING-INVITATION-CHOOSE{
+    font-size: 1.3em;
+    font-weight: 300;
+  }
+
+  .VISUAL-CONCEPT{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 7em;
+    width: 80%;
+    background: #000;
+    padding-top: 5em;
+    padding-bottom: 7em;
+  }
+
+  .VISUAL-CONCEPT-TITLE{
+    font-size: 2.1em;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+    color: white;
+    margin-left: 7em;
+  }
+  .VISUAL-CONCEPT-H3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: white;
+    margin-top: 0;
+    margin-left: 7em;
+  }
+  .VISUAL-CONCEPT-text{
+    margin-left: 7em;
+  }
+  .VISUAL-CONCEPT-P{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    
+  }
   .WEDDING-INVITATION-CARDS {
     display: flex;
-  gap: 1.5rem;
-  padding: 2rem;
+  gap: 1.5em;
+  padding: 2em;
   overflow-x: auto; /* Позволява скрол, ако е тясно */
   }
 
