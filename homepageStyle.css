@@ -61,8 +61,13 @@
   text-underline-offset: 0.8em;
 }
 
+.logo{
+  
+ 
+}
   .logo img {
     height: 8em; 
+    
   }
   
 
@@ -116,6 +121,21 @@
   .logo2 img {
     height: 10em; 
     
+  }
+
+  .WEDDING-INVITATION-CARDS {
+    display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  overflow-x: auto; /* Позволява скрол, ако е тясно */
+  }
+
+  .card {
+    /* RGB: 105 / 17 / 65 */
+    background: rgb(105, 17, 65);
+    width: 20em;
+    height: 20em;
+    margin: 0 1em 1em;
   }
   
   @media screen and (max-width: 1800px) {
