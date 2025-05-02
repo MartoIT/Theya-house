@@ -101,8 +101,9 @@
   }
 
   .home-about-us-p {
-    font-family: 'Aviano', sans-serif;
-    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+    font-size: 1.1em;
     font-weight: 400;
     padding-top: 0;
     padding-bottom: 0;
