@@ -69,7 +69,7 @@
  
   
 
-  .home-sign{
+  .home-sign{ /* Стил за буквите на сакото */
     padding-right: 4em;
     position: relative;
     top: -16em; 
@@ -82,26 +82,36 @@
     gap: 1.5em;
     font-weight: 900;
     letter-spacing: 0.16em;
-
   }
+
+  /* От тук стил about us */
   .home-about-us-sign{
+   
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: -16em;
-    gap: 1em;
+   
   }
 
   .home-about-us-h1{
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-weight: 900;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.33em;
   }
-  .home-about-us-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
+
+  .home-about-us-p {
+    font-family: 'Aviano', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 1em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
   .logo2 img {
     height: 10em; 
