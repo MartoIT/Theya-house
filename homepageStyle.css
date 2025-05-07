@@ -230,7 +230,86 @@
     margin-bottom: 0.33em;
 
   }
+  .MINIMAL-ELEGANT{
+    margin: 0; 
+    padding: 10em; 
+    height: 80vh; 
+    background: #000;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .MINIMAL-ELEGANT-inside{
+    /* padding: 7em 7em 7em 7em;  */
+    height: 80vh; 
+    width: 80%;
+    background: white;
+    /* background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* или center – зависи как искаш подравняване по височина */
+    gap: 20px; /* разстояние между двете половини */
+    padding: 10px;
+  }
+  .minimal-elegant-text{
+    flex: 1; /* заема половината място */
+    max-width: 40%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7em;
+  }
+  .minimal-elegant-p{
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-top: 0.4em; 
+    margin-bottom: 0.4em;
+  }
+
+  .MINIMAL-ELEGANT-CARDS {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 колони */
+    grid-template-rows: auto auto; /* два реда */
+    gap: 20px;
+    max-width: 60%;
+  }
   
+  .card-minimal-elegant:nth-child(1) {
+    grid-column: 1; /* Първата картичка е в първата колона */
+    grid-row: span 2; /* Първата картичка заема двата реда */
+    background: rgb(105, 17, 65);
+    width: 22em;
+    height: 42em;
+    margin: 0 1em 1em;
+  }
+  
+  .card-minimal-elegant:nth-child(2) {
+    grid-column: 2; /* Втората картичка е втората колона */
+    grid-row: 1; /* Втората картичка е на първия ред */
+    background: rgb(105, 17, 65);
+    width: 32em;
+    height: 17em;
+    margin: 0 1em 1em;
+  }
+  
+  .card-minimal-elegant:nth-child(3) {
+    grid-column: 2; /* Третата картичка е втората колона */
+    grid-row: 2; /* Третата картичка е на втория ред */
+    background: rgb(105, 17, 65);
+    width: 32em;
+    height: 32em;
+    margin: 0 1em 1em;
+  }
+  
+  
+  
+
+ 
   @media screen and (max-width: 1800px) {
     .we {
       padding: 5em; /* Намаляваме padding за лаптопи */
