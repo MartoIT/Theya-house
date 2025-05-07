@@ -329,9 +329,68 @@
     height: 32em;
     margin: 0 1em 1em;
   }
+
+  .NATURE-INSPIRED-SERIES{
+    height: 80vh; 
+    width: 80%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; /* или center – зависи как искаш подравняване по височина */
+    gap: 5px; /* разстояние между двете половини */
+    padding-top: 5em;
+    
+  }
   
+  .card-and-text-nature{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .first-row-card{
+    background: rgb(105, 17, 65);
+    width: 32em;
+    height: 42em;
+    margin: 0 1em 1em;
+  }
+  .text-nature-h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+    color: black;
+  }
+
+  .text-nature-p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 1.1em;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: left;
+   
+  }
+
+  .two-cards-nature{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 2;
+    margin-left: 15em;
+    margin-top: 17em;
+
+  }
+
+  .second-row-card{
+    background: rgb(105, 17, 65);
+    width: 32em;
+    height: 32em;
+    margin: 0 1em 1em;
+  }
   
-  
+
 
  
   @media screen and (max-width: 1800px) {
