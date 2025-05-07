@@ -263,7 +263,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start; /* или center – зависи как искаш подравняване по височина */
-    gap: 20px; /* разстояние между двете половини */
+    gap: 5px; /* разстояние между двете половини */
     padding: 10px;
   }
   .minimal-elegant-text{
@@ -272,12 +272,27 @@
     flex-direction: column;
     align-items: center;
     padding-top: 7em;
+    padding-left: 2em;
+  }
+  .MINIMl-h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+    color: black;
   }
   .minimal-elegant-p{
-    font-weight: 400;
-    font-size: 1.2em;
-    margin-top: 0.4em; 
-    margin-bottom: 0.4em;
+    /* font-weight: 400;
+    font-size: 1em; */
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 1.1em;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: left;
+   
+    
   }
 
   .MINIMAL-ELEGANT-CARDS {
