@@ -8,32 +8,29 @@
 
   body {
     font-family: 'Aviano', sans-serif;
-    margin: 0; /* Премахваме всякакви външни отстъпи */
+    margin: 0; 
   }
   .we{
-    margin: 0; /* Премахваме всякакви външни отстъпи */
-    padding: 10em; /* Премахваме вътрешните отстъпи */
-    height: 80vh; /* Уверяваме се, че body заема цялата височина на екрана */
-    background-image: url('./resources/we.jpg'); /* Твоето изображение */
-    background-size: cover; /* Снимката покрива целия екран */
-    background-position: center; /* Центриране на изображението */
-    background-repeat: no-repeat; /* Предотвратява повторение на снимката */
-    
-    
+    margin: 0;
+    padding: 10em; 
+    height: 80vh; 
+    background-image: url('./resources/we.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
   }
 
   header{
     margin-top: -9em;
     margin-left: -10em;
-    display: flex;
-    
+    display: flex;  
   }
+
 .navbar {
   display: flex;
   justify-content:space-around;
   align-items:center;
   gap: 3em;
-  /* padding: 20px 40px; */
   width: 100%; 
   color: white;
 }
@@ -42,18 +39,16 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 3.5em; /* разстояние между елементите */
+  gap: 3.5em; 
   margin: 0;
   padding: 0;
 }
-
 
 /* Стил на линковете */
 .nav-links li a {
   color: white;
   text-decoration: none;
   font-size: 1.15em;
-  
 }
 
 .nav-links li a:hover {
@@ -61,20 +56,12 @@
   text-underline-offset: 0.8em;
 }
 
-.logo{
-  
- 
+.logo img {
+  height: 8em;    
 }
-  .logo img {
-    height: 8em; 
-    
-  }
   
 
- 
-  
-
-  .home-sign{ /* Стил за буквите на сакото */
+.home-sign{ /* Стил за буквите на сакото */
     padding-right: 4em;
     position: relative;
     top: -16em; 
@@ -87,10 +74,10 @@
     gap: 1.5em;
     font-weight: 900;
     letter-spacing: 0.16em;
-  }
+}
 
   /* От тук стил about us */
-  .home-about-us-sign{
+.home-about-us-sign{
     height: 100vh; 
     display: flex;
     flex-direction: column;
@@ -98,16 +85,16 @@
     margin-top: -16em;
     
    
-  }
+}
 
-  .home-about-us-h1{
+.home-about-us-h1{
     font-size: 2.3em;
     font-weight: 900;
     letter-spacing: 0.33em;
     margin-top: 2em;
-  }
+}
 
-  .home-about-us-p {
+.home-about-us-p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 550;
     font-size: 1.1em;
@@ -117,21 +104,19 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-  .logo2{
+.logo2{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 7em;
 
-  }
+}
 
-  .logo2 img {
-  
-    height: 15em; 
-    
-  }
+.logo2 img {/*Цветето на about us*/
+    height: 15em;  
+}
 
   .WEDDING-INVITATION{
     display: flex;
@@ -151,7 +136,7 @@
     padding-bottom: 1.5em;
   }
 
-  .VISUAL-CONCEPT{
+  .photos-on-focus{
     display: flex;
     flex-direction: column;
     align-items: start;
