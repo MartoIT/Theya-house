@@ -465,6 +465,21 @@
     margin-top: -8em;
   }
 
+  .right-hotizontal-text {
+    text-align: left;
+    padding: 1em 2em;
+    
+  }
+  
+  .right-hotizontal-text-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0.01em;
+    letter-spacing: 0.01em;
+  }
+
   .right-hotizontal-card{
     background: rgb(105, 17, 65);
     width: 32em;
