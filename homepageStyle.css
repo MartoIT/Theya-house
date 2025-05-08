@@ -435,14 +435,41 @@
   }
 
   .white-bg-handmade{
-    height: 80vh; 
+    height: 60vh; 
     width: 100%;
     background: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 2em;
+    flex-wrap: wrap;
    
-    gap: 5px; /* разстояние между двете половини */
     padding-top: 5em;
+  }
+  .left-vertical-cards{
+    display: flex;
+    flex-direction: row;
+  }
+  
+
+  .left-vertical-card1, .left-vertical-card2{
+    background: rgb(105, 17, 65);
+    width: 22em;
+    height: 36em;
+    margin: 0 1em 1em;
+  }
+
+  .left-vertical-card2{
+    margin-top: -13em;
+  }
+  .left-vertical-card1{
+    margin-top: -8em;
+  }
+
+  .right-hotizontal-card{
+    background: rgb(105, 17, 65);
+    width: 32em;
+    height: 20em;
+    margin: 0 1em 1em;
   }
 
  
