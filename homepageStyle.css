@@ -118,112 +118,120 @@
     height: 15em;  
 }
 
-  .WEDDING-INVITATION{
+/*От тук секцията wedding invitation със нашите снимки */
+
+.wedding-invitation-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       
+  justify-content: center;    
+  padding: 2rem;
+  background-color: rgb(255, 255, 255);
+}
+  .wedding-invitation{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 3em;
+   
+   
   }
 
-  .WEDDING-INVITATION-TITLE{
+  .wedding-invitation-title{
     font-size: 2.3em;
     font-weight: 900;
     
   }
-  .WEDDING-INVITATION-CHOOSE{
+  .wedding-invitation-choose{
     font-size: 1.3em;
     font-weight: 300;
-    padding-bottom: 1.5em;
+    
   }
 
   .photos-on-focus{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin-left: 7em;
-    width: 77%;
+    width: 87%;
+    height: 90vh;
     background: #000;
     padding-top: 5em;
     padding-bottom: 7em;
-    position: relative;
-    z-index: 1;
+   
   }
-
-  .VISUAL-CONCEPT-TITLE{
-    font-size: 2.1em;
-    font-weight: 900;
-    margin-bottom: 0.5em;
-    color: white;
-    margin-left: 7em;
-  }
-  .VISUAL-CONCEPT-H3{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 1.3em;
-    color: white;
-    margin-top: 0;
-    margin-left: 7em;
-  }
-  .VISUAL-CONCEPT-text{
-    margin-left: 7em;
-  }
-  .VISUAL-CONCEPT-P{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 1.2em;
-    margin-top: 0.33em; 
-    margin-bottom: 0.33em;
-    
-  }
- 
-  .card-visual {
-    /* RGB: 105 / 17 / 65 */
-    background: rgb(105, 17, 65);
-    width: 20em;
-    height: 25em;
-    margin-left: 70em;
-    margin-top: -32em;
-    position: absolute;
-    z-index: 2; /* по-висока стойност = по-отгоре */
-  }
-  .WEDDING-INVITATION-CARDS {
+  .image-slider {
     display: flex;
-  gap: 1.5em;
-  padding: 2em;
-  overflow-x: auto; 
-  /* Позволява скрол, ако е тясно */
-  margin-left: 20em;
-  position: absolute;
-  z-index: 2;
-  margin-top: -5em;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
   }
 
-  .card {
-    /* RGB: 105 / 17 / 65 */
-    background: rgb(105, 17, 65);
-    width: 20em;
-    height: 25em;
-    margin: 0 1em 1em;
+  .arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .arrow:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.1);
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  .side-image {
+    width: 380px;
+  }
+  
+  .center-image {
+    width: 380px;
     
   }
+  
 
-  .VISUAL-CONCEPT-text2{
-    padding-top: 26em;
+  .wedding-invitation-text {
+    text-align: center; 
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto; 
+  }
+  
+  .wedding-invitation-p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+    color: white;
+   
+  }
+  
+  /* .wedding-invitation-text{
+    padding-top: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 4em;
   }
 
-  .VISUAL-CONCEPT-P2{
-    color: #000;
+  .wedding-invitation-p{
+    color: white;
     font-weight: 400;
-    font-size: 1.2em;
-    margin-top: 0.33em; 
-    margin-bottom: 0.33em;
+    font-size: 1.1em;
+    
+  } */
 
-  }
+
   .MINIMAL-ELEGANT{
     margin: 0; 
     padding: 10em; 
