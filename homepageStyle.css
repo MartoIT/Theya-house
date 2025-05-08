@@ -286,68 +286,91 @@
 
 
 
-  .NATURE-INSPIRED-SERIES{
-    height: 80vh; 
+  .nature-insipire-series{
+    height: 100vh; 
     width: 100%;
-    background: white;
     display: flex;
     flex-direction: column;
-   
-    gap: 5px; /* разстояние между двете половини */
+    gap: 5px; 
     padding-top: 5em;
     
   }
   
-  .card-and-text-nature{
-    position: relative;
-    z-index: 1;
+
+
+  .nature-inspire-title {
     display: flex;
-    flex-direction: row;
-    gap: 2em;
-    
-  }
-
-  .first-row-card{
+    flex-direction: column;
+    align-items: center;       /* центрира хоризонтално */
+    justify-content: center;   /* центрира вертикално */
+    height: 100vh;             /* заема цялата височина на екрана */
+    text-align: center;        /* центрира текста вътре в заглавията */
+    padding: 0 1em;           /* малко отстояние от краищата на екрана */
+    box-sizing: border-box;
     background: rgb(105, 17, 65);
-    width: 30em;
-    height: 35em;
-    margin: 0 1em 1em;
-  }
-  .text-nature-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5em;
-    font-weight: 900;
-    margin-bottom: 0.5em;
-    color: black;
-  }
-
-  .text-nature-p{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 550;
-    font-size: 1.1em;
-    padding-top: 0;
-    padding-bottom: 0;
-    text-align: left;
-   
-  }
-
-  .two-cards-nature{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    z-index: 2;
-    margin-left: 32em;
-    margin-top: 28em;
-
-  }
-
-  .second-row-card{
-    background: rgb(105, 17, 65);
-    width: 32em;
-    height: 32em;
-    margin: 0 1em 1em;
   }
   
+  .nature-inspire-title-h1 {
+    font-size: 2.8rem;
+    margin: 0.5rem 0;
+    color: white;             
+  }
+  
+
+  .text-with-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .nature-inspire-side-image-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    transform: rotate(-7deg);
+  }
+
+  .nature-inspire-side-image-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    transform: rotate(7deg);
+  }
+  
+  .nature-inspire-img {
+    width: 400px;
+    min-height: 600px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .text-nature {
+    flex: 2;
+    text-align: center;
+    color:  rgb(105, 17, 65);
+  }
+  
+  .text-nature-h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .text-nature-p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+  }
+  
+
+  
+  
+
+
 
   .HANDMADE-PAPER-SECTION{
     margin-top: 20em;
