@@ -246,7 +246,7 @@
   
   .minimal-h1 {
     font-size: 2.5em;
-    margin-bottom: 1em;
+    margin-bottom: 1.8em;
     color: black;
   }
   
@@ -278,8 +278,8 @@
   }
   
   .industrial-img {
-    width: 420px;
-    height: 750px;
+    width: 480px;
+    height: 780px;
     /* max-height: 100vh; */
     object-fit: cover;
     /* border-radius: 8px; */
@@ -295,7 +295,7 @@
     display: flex;
     flex-direction: column;
     gap: 5px; 
-    padding-top: 5em;
+    margin-top: -11em;
     
   }
   
@@ -311,6 +311,8 @@
     padding: 0 1em;           /* малко отстояние от краищата на екрана */
     box-sizing: border-box;
     background: rgb(105, 17, 65);
+    padding-top: 10em;
+    padding-bottom: 10em;
   }
   
   .nature-inspire-title-h1 {
