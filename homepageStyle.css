@@ -486,13 +486,23 @@
     margin: 0 1em 1em;
   }
   /*контактна форма*/
+
+  .CONTACTS{
+    margin: 0; 
+    padding: 2em; 
+    height: 90vh; 
+    background: #333;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding-bottom: 4em;
+  }
   .CONTACTS-h1{
     text-align: center;
     font-size: 2.3em;
-    padding: 1em 2em;
+    
   }
 
-   /* Нов вариянт */
 
    .contact-form {
     max-width: 30%;
