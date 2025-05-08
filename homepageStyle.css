@@ -240,11 +240,12 @@
     
     margin-bottom: 15em;
     padding-left: 17em;
+    padding-right: 5em;
     white-space: nowrap;
   }
   
   .minimal-h1 {
-    font-size: 2.2em;
+    font-size: 2.5em;
     margin-bottom: 1em;
     color: black;
   }
@@ -253,7 +254,7 @@
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 1.12em;
+    font-size: 1.3em;
     padding-top: 0;
     padding-bottom: 0;
     line-height: 1.6;
@@ -268,6 +269,8 @@
     justify-content: center;
     align-items: flex-start;
     position: relative;
+    padding-right: 4em;
+    margin-right: 10em;
   }
   
   .card-minimal-elegant {
@@ -276,10 +279,10 @@
   
   .industrial-img {
     width: 420px;
-    height: 700px;
+    height: 750px;
     /* max-height: 100vh; */
     object-fit: cover;
-    border-radius: 8px;
+    /* border-radius: 8px; */
    
   }
   
