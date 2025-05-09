@@ -13,7 +13,7 @@
   .we{
     margin: 0;
     padding: 10em; 
-    height: 80vh; 
+    height: 70vh; 
     background-image: url('./resources/we.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -78,13 +78,13 @@
 
   /* От тук стил about us */
 .home-about-us-sign{
-    height: 100vh; 
+    height: 80vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: -16em;
     padding-top: 10em;
-    padding-bottom: 10em;
+    padding-bottom: 2em;
    
 }
 
@@ -125,7 +125,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;       
-  justify-content: center;    
+  justify-content: center; 
+  height: 80vh;    
   padding: 2rem;
   background-color: rgb(255, 255, 255);
 }
@@ -136,7 +137,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-   
+    
   }
 
   .wedding-invitation-title{
@@ -276,23 +277,20 @@
   }
   
   .card-minimal-elegant {
-    transform: translateY(-10em);
+    transform: translateY(-5em);
   }
   
   .industrial-img {
     width: 480px;
     height: 780px;
-    /* max-height: 100vh; */
     object-fit: cover;
-    /* border-radius: 8px; */
-   
   }
   
 
 
 
   .nature-insipire-series{
-    height: 100vh; 
+    height: 90vh; 
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -306,19 +304,19 @@
   .nature-inspire-title {
     display: flex;
     flex-direction: column;
-    align-items: center;       /* центрира хоризонтално */
-    justify-content: center;   /* центрира вертикално */
-    height: 100vh;             /* заема цялата височина на екрана */
-    text-align: center;        /* центрира текста вътре в заглавията */
-    padding: 0 1em;           /* малко отстояние от краищата на екрана */
+    align-items: center;       
+    justify-content: center;   
+    height: 100vh;             
+    text-align: center;       
+    padding: 0 1em;          
     box-sizing: border-box;
     background: rgb(105, 17, 65);
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 7em;
+    padding-bottom: 7em;
   }
   
   .nature-inspire-title-h1 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     margin: 0.5rem 0;
     color: white;             
   }
@@ -349,8 +347,8 @@
   }
   
   .nature-inspire-img {
-    width: 400px;
-    min-height: 600px;
+    width: 350px;
+    min-height: 500px;
     height: auto;
     object-fit: cover;
     border-radius: 8px;
