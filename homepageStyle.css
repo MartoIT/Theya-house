@@ -435,15 +435,50 @@
 
 
 
-.handmade-paper{
-   width: 100%;
-  height: 100vh;
+.handmade-paper {
+  width: 100%;
+  min-height: 100vh; /* за да не се реже, ако има повече съдържание */
   background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15em 1em;
+  box-sizing: border-box;
+  text-align: center;
 }
 
+.handmade-paper-h1 {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
 
-  
+.handmade-paper-p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.4;
+  margin: 0.3em 0;
+}
 
+.handmade-paper-section-img {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+  gap: 1em;
+}
+
+.handmade-paper-img {
+  width: 100%;
+  max-width: 30%;
+  height: 480px; /* Задаваш височина според дизайна */
+  object-fit: cover;
+  border-radius: 8px;
+}
 
 
 
