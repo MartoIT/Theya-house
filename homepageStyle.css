@@ -483,8 +483,19 @@
 
 /*от тук започва контактната форма*/
 .contact-form {
-  width: 600px;
+  width: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4em;
+  margin-top: 7em;
+  margin-bottom: 5em;
+  
+}
+form{
+  width: 30%;
+  margin-left: 10em;
 }
 
 .contact-title {
@@ -501,7 +512,7 @@
 }
 
 .input-field {
-  border: 1px solid rgba(105, 17, 65); 
+  border: 2px solid rgba(105, 17, 65); 
   border-radius: 2em;
   padding: 0.8em 1.2em;
   font-size: 0.95em;
@@ -546,15 +557,26 @@
   color: white;
 }
 
-
+.picture-and-text-contact-imgs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5em;
+  padding-left: 4em;
+  margin-top: 2em;
+}
 .picture-and-text-img{
-  width: 300px;
+  width: 480px;
   max-width: 30%;
-  height: 480px; /* Задаваш височина според дизайна */
+  height: 420px; 
   object-fit: cover;
   border-radius: 8px;
 }
 
+.picture-and-text-img:nth-child(2) {
+  position: relative;
+  top: -180px; /* колкото искаш да я изместиш нагоре */
+}
 
   /* --------------------------- */
 
