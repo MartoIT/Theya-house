@@ -481,6 +481,80 @@
 }
 
 
+/*от тук започва контактната форма*/
+.contact-form {
+  width: 600px;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  margin-bottom: 1.5em;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.input-field {
+  border: 1px solid rgba(105, 17, 65); 
+  border-radius: 2em;
+  padding: 0.8em 1.2em;
+  font-size: 0.95em;
+  outline: none;
+  margin-bottom: 1em;
+  color: #000;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.half {
+  width: 48%;
+}
+
+.full {
+  width: 100%;
+}
+
+.textarea {
+  height: 200px;
+  border-radius: 1.5em;
+  resize: none;
+}
+
+.file-input {
+  padding: 0.5em 1.2em;
+}
+
+.send-button {
+  margin-top: 1.5em;
+  padding: 0.7em 2em;
+  font-size: 0.9em;
+  border: 2px solid #660033;
+  border-radius: 2em;
+  background: white;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+}
+
+.send-button:hover {
+  background-color: #660033;
+  color: white;
+}
+
+
+.picture-and-text-img{
+  width: 300px;
+  max-width: 30%;
+  height: 480px; /* Задаваш височина според дизайна */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 
   /* --------------------------- */
 
