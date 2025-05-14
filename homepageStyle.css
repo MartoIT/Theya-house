@@ -545,7 +545,7 @@ form{
   margin-top: 1.5em;
   padding: 0.7em 2em;
   font-size: 0.9em;
-  border: 2px solid #660033;
+  border: 2px solid rgba(105, 17, 65);
   border-radius: 2em;
   background: white;
   cursor: pointer;
@@ -553,7 +553,7 @@ form{
 }
 
 .send-button:hover {
-  background-color: #660033;
+  background-color:  rgba(105, 17, 65);
   color: white;
 }
 
@@ -578,6 +578,73 @@ form{
   top: -180px; /* колкото искаш да я изместиш нагоре */
 }
 
+
+
+
+.follow-us {
+  width: 100%;
+  min-height: 100vh; /* за да не се реже, ако има повече съдържание */
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 1em;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.follow-us-h1 {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+ 
+}
+
+.follow-us-p {
+ color: white;
+  font-size: 1.2em;
+  
+  padding-bottom: 1em;
+}
+
+.follow-us-section-img {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+  gap: 1em;
+}
+
+.follow-us-img {
+  width: 100%;
+  max-width: 30%;
+  height: 480px; 
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.home-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  margin-top: 2em;
+  padding-bottom: 5em;
+}
+
+.logo-in-footer{
+  height: 12em;
+}
+
+.home-footer-h1{
+  color: rgba(105, 17, 65);
+}
+
+.home-footer-p{
+  color: rgba(105, 17, 65);
+}
   /* --------------------------- */
 
 
