@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Aviano';
-  src: url(./fonts/Aviano\ Contrast.ttf);
+  src: url('./fonts/Aviano Contrast.ttf');
+  /* src: url(./fonts/Aviano\ Contrast.ttf); */
   font-weight: normal;
   font-style: normal;
 }
